@@ -112,4 +112,4 @@ async function build() {
   fs.writeFileSync('meta_client.json', JSON.stringify(resultClient.metafile))
 }
 
-await build()
+await build();

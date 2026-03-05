@@ -318,4 +318,4 @@ try {
 } catch (error) {
   console.error('Error running tests:', error)
   process.exit(1)
-}
+};

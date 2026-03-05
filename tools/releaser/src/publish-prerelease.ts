@@ -43,4 +43,4 @@ function header(message: string, opts?: { enable?: boolean }) {
   }
 
   console.log(chalk.bold.green(`${message}\n`))
-}
+};

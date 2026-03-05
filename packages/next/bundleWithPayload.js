@@ -20,4 +20,4 @@ await esbuild.build({
   // 18.20.2 is the lowest version of node supported by Payload
   target: 'node18.20.2',
 })
-console.log('withPayload cjs bundle created successfully')
+console.log('withPayload cjs bundle created successfully');
