@@ -21,4 +21,4 @@ mkdirSync(distProdDir, { recursive: true })
 // Write the stub CSS file with comment
 writeFileSync(stylesPath, comment, 'utf8')
 
-console.log('Created stub styles.css for debug build')
+console.log('Created stub styles.css for debug build');
