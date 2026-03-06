@@ -68,7 +68,7 @@ export const pushDevSchema = async (adapter: DrizzleAdapter) => {
       {
         name: 'confirm',
         type: 'confirm',
-        initial: false,
+        initial: true,
         message,
       },
       {

@@ -195,4 +195,4 @@ function require(m) {
   fs.writeFileSync('meta_shared.json', JSON.stringify(resultShared.metafile))
 }
 
-await build()
+await build();

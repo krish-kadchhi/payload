@@ -45,4 +45,4 @@ await payload.db.generateSchema({
   outputFile: path.resolve(testDir, 'payload-generated-schema.ts'),
 })
 
-process.exit(0)
+process.exit(0);

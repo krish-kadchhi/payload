@@ -31,4 +31,4 @@ export const getPackageRegistryVersions = async (): Promise<void> => {
 
 if (import.meta.url === new URL(import.meta.url).href) {
   await getPackageRegistryVersions()
-}
+};
