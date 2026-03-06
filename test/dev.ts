@@ -147,4 +147,4 @@ process.on('SIGTERM', () => {
     child.kill('SIGINT')
   }
   process.exit(0) // Exit the parent process
-})
+});

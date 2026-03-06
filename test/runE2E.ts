@@ -213,4 +213,4 @@ async function executePlaywright(
 function clearWebpackCache() {
   const webpackCachePath = path.resolve(dirname, '../node_modules/.cache/webpack')
   shelljs.rm('-rf', webpackCachePath)
-}
+};

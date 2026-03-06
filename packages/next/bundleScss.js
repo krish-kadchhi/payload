@@ -43,4 +43,4 @@ async function build() {
   console.log('Files renamed and deleted successfully')
 }
 
-await build()
+await build();
