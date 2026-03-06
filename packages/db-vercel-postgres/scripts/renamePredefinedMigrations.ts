@@ -16,4 +16,4 @@ const rename = () => {
   console.log('done')
 }
 
-rename()
+rename();

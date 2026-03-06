@@ -137,4 +137,4 @@ if (patterns.length > 0) {
   void cleanDirectories(patterns)
 } else {
   console.log(chalk.red('No patterns provided. Usage: node script.js [patterns]'))
-}
+};

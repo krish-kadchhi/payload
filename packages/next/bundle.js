@@ -31,4 +31,4 @@ async function build() {
   fs.writeFileSync('meta_index.json', JSON.stringify(resultIndex.metafile))
 }
 
-await build()
+await build();

@@ -40,4 +40,4 @@ if (testConfigDir) {
         generateSchema(config)
       }
     })
-}
+};

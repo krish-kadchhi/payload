@@ -382,4 +382,4 @@ type PublishResult = {
   details?: string
   name: string
   success: boolean
-}
+};
